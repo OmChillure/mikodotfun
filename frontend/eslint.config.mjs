@@ -20,6 +20,12 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
   },
+  {
+    files: ["**/*.ts", "**/*.tsx"],
+    rules: {
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+    },
+  },
 ];
 
 export default eslintConfig;
