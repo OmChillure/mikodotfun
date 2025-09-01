@@ -28,7 +28,7 @@ export const HeroHeader = () => {
       <nav data-state={menuState && "active"} className="fixed z-20 w-full px-2">
         <div
           className={cn(
-            "mx-auto mt-2 max-w-4xl rounded-2xl border border-white/20 bg-background/80 px-4 backdrop-blur-lg transition-all duration-300 lg:px-6",
+            "mx-auto mt-2 max-w-8xl rounded-2xl px-4 backdrop-blur-lg transition-all duration-300 lg:px-6",
             isScrolled && "shadow-sm",
           )}
         >
@@ -50,7 +50,7 @@ export const HeroHeader = () => {
 
             <div
               className={cn(
-                "mb-6 hidden w-full flex-wrap items-center justify-end space-y-4 rounded-2xl border border-white/10 bg-background p-4 shadow-lg shadow-zinc-300/20 md:flex-nowrap lg:m-0 lg:flex lg:w-fit lg:gap-4 lg:space-y-0 lg:border-transparent lg:bg-transparent lg:p-0 lg:shadow-none dark:shadow-none",
+                "mb-6 hidden w-full flex-wrap items-center justify-end rounded-2xl border border-white/10 bg-background p-4 shadow-lg shadow-zinc-300/20 md:flex-nowrap lg:m-0 lg:flex lg:w-fit lg:gap-4 lg:space-y-0 lg:border-transparent lg:bg-transparent lg:p-0 lg:shadow-none dark:shadow-none",
                 menuState && "block lg:flex",
               )}
             >

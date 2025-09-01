@@ -53,7 +53,7 @@ export default function Page() {
               Secure, fast, and cross-chain by design
             </h1>
             <p className="text-white/80 text-base md:text-lg leading-relaxed text-pretty">
-              A secure ZK-powered on/off-ramp marketplace with vault protection, XP rewards, and cross-chain freedom.
+              A secure on/off-ramp marketplace with vault protection, XP rewards, and cross-chain freedom.
             </p>
           </div>
         </div>
